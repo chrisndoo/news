@@ -1,8 +1,7 @@
 
 
-from app import app
-import ny
-
+from flask import Flask
+app=Flask(__name__)
 
 @app.route('/')
 
@@ -11,16 +10,8 @@ def index():
 
 
 
-    return '''
-<html>
-    <head> 
-    ''' + x0 + '''
-        
-    </head>
-    <body>
-        <h1>Hello!</h1>
-        <a href="https://www.w3schools.com">here</a>
-        ''' + x + '''
-    </body>
-</html>'''
+  return 'Hello'
 
+if __name__==__'main'__:
+
+  app.run()
