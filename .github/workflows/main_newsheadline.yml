@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'newsheadline'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_a847ad7a9d2f4bdbb716229bb526c965 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_15dd6687b5224aa6969baa01aeb09e43 }}
