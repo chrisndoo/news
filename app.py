@@ -1,4 +1,8 @@
 from flask import Flask
+import requests
+from bs4 import BeautifulSoup
+from deep_translator import GoogleTranslator
+
 app=Flask(__name__)
 
 @app.route('/')
